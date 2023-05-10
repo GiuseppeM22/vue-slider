@@ -20,6 +20,10 @@ createApp({
             this.currentSlide++
             if(this.currentSlide>4)
             this.currentSlide = 0
-        }
+        },
+        thumbClick(indice){
+         this.currentSlide = indice
+        },
+       
   }
 }).mount('#app')
